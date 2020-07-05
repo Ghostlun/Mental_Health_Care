@@ -9,6 +9,27 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    //Idea Button for
+    //1.ADHD Button
+    //2.Depression Button
+    //3.Panic Button
+    //4.Dependence
+    //5.Dementaia
+    //6.Specific Phobia
+    //7.Dysthymia
+    //8.Stress
+
+    int idea = 0;
+
+    public int getIdea() {
+
+        return idea;
+    }
+
+    public void setIdea(int idea) {
+        this.idea = idea;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
