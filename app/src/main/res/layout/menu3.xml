@@ -7,16 +7,16 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0"
-        android:layout_weight="2">
+        android:layout_weight="2"
+        android:layout_height="wrap_content">
 
     </LinearLayout>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="0"
         android:layout_weight="4"
         android:layout_margin="6dp"
         android:textSize="24sp"
+        android:layout_height="wrap_content"
         android:text="Welcome"
         android:textAlignment="center"
         android:id="@+id/questionBoard"/>
@@ -25,7 +25,7 @@
     <!--Empty-->
     <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="0"
+        android:layout_height="wrap_content"
     android:layout_weight="1"/>
 
 
@@ -33,8 +33,8 @@
     <!--Empty-->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0"
         android:layout_weight="4"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <Button
@@ -56,9 +56,14 @@
             android:layout_margin="6dp"
             android:text="3"/>
 
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/counter"/>-->
+
+
     </LinearLayout>
-
-
 
 
 
